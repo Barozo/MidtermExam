@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.mat-card {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  background-color: rgb(24, 37, 97);
+  font-size: larger;
+  font-family: sans-serif;
+}

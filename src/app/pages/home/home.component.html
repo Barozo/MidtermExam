@@ -1,0 +1,21 @@
+<p>
+    <mat-toolbar color="primary">
+        <button mat-button [matMenuTriggerFor]="menu">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item routerLink="profile" routerLinkActive="active">Profile</button>
+          <button mat-menu-item routerLink="gallery" routerLinkActive="active">Gallery</button>
+          <button mat-menu-item routerLink="contacts" routerLinkActive="active">Contacts</button>
+        </mat-menu>
+    <span>Home</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  <router-outlet></router-outlet>
+</p>
